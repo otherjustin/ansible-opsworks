@@ -8,7 +8,7 @@ instance buildout (http://docs.aws.amazon.com/opsworks/latest/userguide/workingc
 - configure
 - deploy
 - undeploy
-- shutodwn
+- shutdown
  
 Each lifecycle event will run a corresponding playbook in
 /home/ec2-user/ansbile on the remote instance (if it's present).
